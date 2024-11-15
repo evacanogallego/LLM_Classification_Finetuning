@@ -26,3 +26,16 @@ A submission file in the correct format.
 
 * id
 * winner_model_[a/b/tie] - This is what is predicted from the test set.
+
+## Submission
+For each id in the test set, you must predict the probability for each target class. The file should contain a header and have the following format:
+
+ id,winner_model_a,winner_model_b,winner_tie
+ 136060,0.33,0,33,0.33
+ 211333,0.33,0,33,0.33
+ 1233961,0.33,0,33,0.33
+ etc
+
+# Citation
+
+Wei-lin Chiang, Lianmin Zheng, Lisa Dunlap, Joseph E. Gonzalez, Ion Stoica, Paul Mooney, Sohier Dane, Addison Howard, and Nate Keating. LLM Classification Finetuning. https://kaggle.com/competitions/llm-classification-finetuning, 2024. Kaggle.
